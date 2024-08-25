@@ -10,10 +10,8 @@ header {
     background-color: beige;
     padding: 20px;
     text-align: center;
-}
-
-nav {
     position: sticky;
+    width: 100%;
     top: 0;
 }
 
@@ -36,20 +34,29 @@ section {
     padding: 20px;
 }
 
+a {
+    color: grey;
+}
+
 table {
     margin-left: 0;
     margin-right: auto;
 }
 
-/*
-#portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
 }
-*/
+
+.silver-boarder {
+    display: block;
+    border: 1px solid silver;
+    padding: 10px;
+}
 
 #portfolio img {
+    gap: 10px;
     width: 100%;
     height: auto;
     max-width: 300px;
