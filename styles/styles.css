@@ -68,6 +68,10 @@ footer {
     padding: 10px 0;
 }
 
+footer img{
+    width: 25px;
+}
+
 #scrollTopBtn {
     position: fixed;
     bottom: 20px;
