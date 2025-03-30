@@ -23,6 +23,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    font-size: 1.2em;
 }
 
 nav ul li a {
