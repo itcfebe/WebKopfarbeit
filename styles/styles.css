@@ -4,6 +4,9 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -13,6 +16,7 @@ header {
     position: sticky;
     width: 100%;
     top: 0;
+    z-index: 100;
 }
 
 nav ul {
@@ -33,6 +37,21 @@ nav ul li a {
 
 section {
     padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+section p {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+section img {
+    margin: 20px 0;
 }
 
 a {
@@ -40,8 +59,9 @@ a {
 }
 
 table {
-    margin-left: 0;
-    margin-right: auto;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
 }
 
 img {
@@ -90,3 +110,4 @@ footer img{
 #scrollTopBtn:hover {
     background-color: grey;
 }
+
