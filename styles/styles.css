@@ -1,7 +1,7 @@
 body {
     font-family: "Times New Roman", "serif";
     color: black;
-    background-color: white;
+    background-color: rgb(255, 254, 250);
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,13 +10,14 @@ body {
 }
 
 header {
-    background-color: beige;
-    padding: 20px;
+    background-color: rgb(255, 254, 250);
+    padding: 20px 0px;
     text-align: center;
     position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
+    box-shadow: 0px -1px 4px 0px darkgray;
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 20px 0px;
     max-width: 1200px;
     width: 100%;
     display: flex;
@@ -84,10 +85,11 @@ img {
 }
 
 footer {
-    background-color: beige;
+    background-color: rgb(255, 254, 250);
     text-align: center;
-    padding: 10px 0;
+    padding-top: 10px;
     width: 100%;
+    box-shadow: 0px 0px 3px 0px darkgray;
 }
 
 footer img{
