@@ -42,8 +42,7 @@ nav ul li a {
 
 section {
     padding: 20px 0px;
-    max-width: 1200px;
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,7 +59,7 @@ section img {
 }
 
 a {
-    color: grey;
+    color: black;
 }
 
 table {
@@ -118,3 +117,19 @@ footer img{
     background-color: grey;
 }
 
+div {
+    width: 100%;
+}
+
+.FlexContainer {
+    display: flex;
+    justify-content: normal;
+}
+
+.ContactInfo {
+}
+
+.QrCode {
+    max-height: 90px;
+    width: auto;
+}

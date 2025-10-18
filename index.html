@@ -11,12 +11,6 @@
 </head>
 
 <body>
-<!--
-TODO: Header und Footer stylen in weiß, elfenbein-weiß oder hellem grau.
--->
-<!--
-TODO: Hintergrund in elfenbein-weiß. R:230 G:220 B:200
--->
 <header>
   <a href="index.html"><img src="images/LogoKopfarbeit.png" alt="Kopfarbeit Madeleine Jaeger" /></a>
   <nav>
@@ -35,12 +29,11 @@ TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufen
 -->
 <section id="kopfarbeit">
   <h1 class="silver-boarder">Willkommen bei<br>Kopfarbeit Madeleine Jaeger</h1>
-  <img src="images/Außen.jpg" alt="Außenansicht Kopfarbeit" />
+  <img src="images/KopfarbeitAußen.jpg" alt="Außenansicht Kopfarbeit" />
   <p>
     Ihr charmanter, kleiner Friseursalon am Bad Homburger Schlosspark.<br>
     Wir freuen uns Sie zu folgenden Zeiten bei Uns begrüßen zu dürfen.
   </p>
-  <!-- TODO: Abstände anpassen. -->
   <table>
     <tr>
       <th>Tag</th>
@@ -200,14 +193,17 @@ TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufen
     Wir arbeiten <b>ausschließlich mit Terminvereinbarung</b>!<br>
     Nutzen Sie gerne folgende Daten für eine Terminanfrage über WhatsApp oder für einen Anruf.
   </p>
-  <p>
-    <b>Kopfarbeit</b><br>
-    Madeleine Jaeger<br>
-    Schulberg 13<br>
-    61348 Bad Homburg<br>
-    +49 151 155 231 80
-  </p>
-  <!-- TODO: QR-Code mit V-Card einfügen. -->
+  <div class="FlexContainer">
+    <p class="ContactInfo">
+      <b>Kopfarbeit</b><br>
+      Madeleine Jaeger<br>
+      Schulberg 13<br>
+      61348 Bad Homburg<br>
+      +49 151 155 231 80
+    </p>
+    <!-- TODO: QR-Code mit V-Card einfügen. -->
+    <img class="QrCode" src="images/VCardKopfarbeitMadeleineJaeger.png" />
+  </div>
   <p>
     <b>Tipp</b>: Sollten Sie einen Parkplatz benötigen, dann empfehlen wir Ihnen die Schlossgarage anzufahren.<br>
   </p>
