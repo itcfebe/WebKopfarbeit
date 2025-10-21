@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Charmanter kleiner Friseursalon am Schlosspark Bad Homburg.
     Wir freuen uns auf Sie!">
-  <title>Startseite | Kopfarbeit Madeleine Jaeger</title>
+  <title>Hauptseite | KOPFARBEIT Madeleine Jaeger</title>
+  <link rel="icon" sizes="32x32" type="image/png" href="images/GlypheSchere32.png">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 <header>
+  <!-- TODO: Logo freistellen. -->
   <a href="index.html"><img src="images/LogoKopfarbeit.png" alt="Kopfarbeit Madeleine Jaeger" /></a>
   <nav>
     <ul>
@@ -23,25 +25,24 @@
   </nav>
 </header>
 
+<!-- TODO: Alle Header und Paragraph Abstände danach anpassen. -->
 <section id="willkommen">
   <h1>Willkommen</h1>
+  <!-- TODO: Bilder nebeneinander als Flex-Items. -->
   <img src="images/KopfarbeitAußen.jpg" alt="Außenansicht Kopfarbeit" />
-  <p>
-    ... bei Ihrem charmanter, kleiner Friseursalon am Bad Homburger Schlosspark.<br>
-    Wir freuen uns Sie zu folgenden Zeiten bei Uns begrüßen zu dürfen.
-  </p>
-
   <img src="images/UeberMadeleine.jpeg" alt="Madeleine Jaeger" />
+
+  <h3>Herzlich Willkommen</h3>
   <p>
-    Wir sind ein inhabergeführtes Familienunternehmen in zweiter Generation.<br>
-    Seit vielen Jahren bietet die Familie Jaeger Ihnen Friseurhandwerk von Meisterhand.
+    ... bei Ihrem charmanten, kleinen Friseursalon am Bad Homburger Schlosspark.
+    Seit vielen Jahren bietet die Familie Jaeger Friseurhandwerk von Meisterhand.
+    Wir sind ein inhabergeführtes Familienunternehmen in zweiter Generation.
   </p>
   <p>
-    Es ist unser Anliegen Ihre individuelle Attraktivität durch unsere "Kopfarbeit" hervorzuheben,<br>
-    wozu wir sowohl auf traditionelle als auch moderne Techniken, Methoden und Produkte zurückgreifen.<br>
+    Es ist unser Anliegen Ihre individuelle Attraktivität durch unsere <b>KOPFARBEIT</b> hervorzuheben,<br>
+    wozu wir sowohl auf bewährte traditionelle als auch innovative moderne Techniken, Methoden und Produkte zurückgreifen.<br>
     Wir freuen uns Ihnen dafür ein umfassendes Premium-Produktsortiment von
-    <a href="https://www.labiosthetique.de?salon=badhomburg-0089063" target="_blank">La Biosthetique</a> bieten zu können.<br>
-    Wir freuen uns Sie im Salon <b>Kopfarbeit</b> begrüßen zu dürfen.
+    <a href="https://www.labiosthetique.de?salon=badhomburg-0089063" target="_blank">La Biosthetique</a> offerieren zu können.<br>
   </p>
 </section>
 
@@ -49,7 +50,7 @@
 
 <!-- TODO: Automatischer Bild-Durchlauf mit JavaScript. -->
 <section id="impressionen">
-  <h2>Impressionen</h2>
+  <h1>Impressionen</h1>
   <img src="images/ImpressionInnen.jpg" alt="ImpressionInnen" />
   <img src="images/ImpressionKunde.jpg" alt="ImpressionKunde" />
   <img src="images/ImpressionMadeleine.jpeg" alt="ImpressionMadeleine" />
@@ -60,8 +61,11 @@
 
 <hr>
 
+<!-- TODO: Drei Gruppen implizit einfügen. Schnitte, Färben, Styling. -->
 <section id="angebot">
-  <h2>Angebot</h2>
+  <h1>Angebot</h1>
+
+  <h3>Unverbindliche Preisliste</h3>
   <table>
     <thead>
     <tr>
@@ -149,9 +153,19 @@
     </tbody>
   </table>
 
+  <h3>Produktshop La Biosthetique</h3>
+  <p>
+    <b>Wichtig</b>: Sie können die Produkte unseres Premium-Partners La Biosthetique online
+    oder lokal im Salon <b>KOPFARBEIT</b> erwerben.
+    Zum Online-Erwerb können Sie gerne auf den Rahmen des hierunter liegenden Shop-Fensters klicken,
+    um ihn in einem neuen Fenster zu öffnen
+    oder direkt im eingebetteten Shop-Fenster selbst Ihre Bestellung tätigen.
+    Im letzten Schritt vor der Bezahlung sollte der Salon <b>KOPFARBEIT</b> als Partner-Salon vermerkt sein.
+  </p>
   <a class="FlexContainer" href="https://www.labiosthetique.de?salon=badhomburg-0089063" target="_blank">
     <iframe class="LaBiosthetiqueShop" src="https://www.labiosthetique.de?salon=badhomburg-0089063"></iframe>
   </a>
+
 </section>
 
 <hr>
@@ -159,13 +173,16 @@
 <!-- TODO: Grid-Layout einfügen für Daten, QR und Tabelle. -->
 <section id="kontakt">
   <h2>Kontakt</h2>
+
+  <h3>Kontaktdaten</h3>
   <p>
     Wir arbeiten <b>ausschließlich mit Terminvereinbarung</b>!<br>
     Nutzen Sie gerne folgende Daten für eine Terminanfrage über WhatsApp oder für einen Anruf.
   </p>
+  <!-- TODO: Website-Link einfügen und vCard freistellen als PNG. -->
   <div class="FlexContainer">
     <p class="ContactInfo">
-      <b>Kopfarbeit</b><br>
+      <b>KOPFARBEIT</b><br>
       Madeleine Jaeger<br>
       Schulberg 13<br>
       61348 Bad Homburg<br>
@@ -173,6 +190,8 @@
     </p>
     <img class="QrCode" src="images/VCardKopfarbeitMadeleineJaeger.png" />
   </div>
+
+  <h3>Öffnungszeiten</h3>
   <table>
     <tr>
       <th>Tag</th>
@@ -207,10 +226,12 @@
       <td>Geschlossen</td>
     </tr>
   </table>
+
+  <h3>Anfahrt</h3>
   <p>
-    <b>Anfahrt</b>: Sollten Sie einen Parkplatz benötigen, dann empfehlen wir Ihnen die kostenpflichtige Schlossgarage anzufahren.
+    Sollten Sie einen Parkplatz benötigen, dann empfehlen wir Ihnen die kostenpflichtige Schlossgarage anzufahren.
     Diese verfügt über einen Aufzug.<br>
-    Der Salon Kopfarbeit befindet sich rechts neben dem Kaffee Eiding.
+    Der Salon <b>KOPFARBEIT</b> befindet sich rechts neben dem Kaffee Eiding.
   </p>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.3735859203003!2d8.610638792313729!3d50.22915533494278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd075a5cbba67b%3A0xe37b212cc5700fa2!2sKOPFARBEIT!5e1!3m2!1sen!2sde!4v1743370711465!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
@@ -226,7 +247,7 @@
     </a>
   </p>
   <p>
-    &copy; 2025 Kopfarbeit Madeleine Jaeger. <br> Einige Rechte vorbehalten.
+    &copy; 2025 <b>KOPFARBEIT</b> Madeleine Jaeger. <br> Einige Rechte vorbehalten.
   </p>
   <!-- TODO: Impressum fertig stellen. -->
   <!-- TODO: Datenschutzerklärung fertig stellen. -->
