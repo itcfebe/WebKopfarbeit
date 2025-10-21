@@ -1,12 +1,16 @@
 body {
     font-family: "Times New Roman", "serif";
     color: black;
-    background-color: rgb(255, 254, 250);
+    background-color: white;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+div {
+    width: 100%;
 }
 
 header {
@@ -21,6 +25,7 @@ header {
 
 header img{
     width: 30%;
+    max-width: 250px;
     position: static;
 }
 
@@ -70,8 +75,8 @@ table {
 
 img {
     width: 100%;
+    max-width: 250px;
     height: auto;
-    max-width: 600px;
 }
 
 .silver-boarder {
@@ -117,16 +122,27 @@ footer img{
     background-color: grey;
 }
 
-div {
-    width: 100%;
+
+
+.ContactInfo {
+}
+
+.EbonyBackground {
+    background-color: rgb(255, 254, 250);
 }
 
 .FlexContainer {
     display: flex;
     justify-content: normal;
+    width: 100%;
 }
 
-.ContactInfo {
+.LaBiosthetiqueShop {
+    border: 10px inset;
+    pointer-events: bounding-box;
+    width: 100%;
+    aspect-ratio: 4/3;
+    max-width: 600px;
 }
 
 .QrCode {

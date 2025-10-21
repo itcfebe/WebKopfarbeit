@@ -15,8 +15,7 @@
   <a href="index.html"><img src="images/LogoKopfarbeit.png" alt="Kopfarbeit Madeleine Jaeger" /></a>
   <nav>
     <ul>
-      <li><a href="#kopfarbeit">Kopfarbeit</a></li>
-      <li><a href="#über">Über</a></li>
+      <li><a href="#willkommen">Willkommen</a></li>
       <li><a href="#impressionen">Impressionen</a></li>
       <li><a href="#angebot">Angebot</a></li>
       <li><a href="#kontakt">Kontakt</a></li>
@@ -24,55 +23,15 @@
   </nav>
 </header>
 
-<!--
-TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufendem Text daneben in allen Sections.
--->
-<section id="kopfarbeit">
-  <h1 class="silver-boarder">Willkommen bei<br>Kopfarbeit Madeleine Jaeger</h1>
+<section id="willkommen">
+  <h1>Willkommen</h1>
   <img src="images/KopfarbeitAußen.jpg" alt="Außenansicht Kopfarbeit" />
   <p>
-    Ihr charmanter, kleiner Friseursalon am Bad Homburger Schlosspark.<br>
+    ... bei Ihrem charmanter, kleiner Friseursalon am Bad Homburger Schlosspark.<br>
     Wir freuen uns Sie zu folgenden Zeiten bei Uns begrüßen zu dürfen.
   </p>
-  <table>
-    <tr>
-      <th>Tag</th>
-      <th>Uhrzeit</th>
-    </tr>
-    <tr>
-      <td>Montag</td>
-      <td>Geschlossen</td>
-    </tr>
-    <tr>
-      <td>Dienstag</td>
-      <td>10:00 - 18:00</td>
-    </tr>
-    <tr>
-      <td>Mittwoch</td>
-      <td>10:00 - 18:00</td>
-    </tr>
-    <tr>
-      <td>Donnerstag</td>
-      <td>10:00 - 18:00</td>
-    </tr>
-    <tr>
-      <td>Freitag</td>
-      <td>10:00 - 18:00</td>
-    </tr>
-    <tr>
-      <td>Samstag</td>
-      <td>08:00 - 14:00</td>
-    </tr>
-    <tr>
-      <td>Sonntag</td>
-      <td>Geschlossen</td>
-    </tr>
-  </table>
-</section>
 
-<section id="über">
-  <h2 class="silver-boarder">Über</h2>
-  <img src="images/Madeleine.jpg" alt="Madeleine Jaeger" />
+  <img src="images/UeberMadeleine.jpeg" alt="Madeleine Jaeger" />
   <p>
     Wir sind ein inhabergeführtes Familienunternehmen in zweiter Generation.<br>
     Seit vielen Jahren bietet die Familie Jaeger Ihnen Friseurhandwerk von Meisterhand.
@@ -81,24 +40,28 @@ TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufen
     Es ist unser Anliegen Ihre individuelle Attraktivität durch unsere "Kopfarbeit" hervorzuheben,<br>
     wozu wir sowohl auf traditionelle als auch moderne Techniken, Methoden und Produkte zurückgreifen.<br>
     Wir freuen uns Ihnen dafür ein umfassendes Premium-Produktsortiment von
-    <a href="" target="_blank">La Biosthetique</a> bieten zu können.<br>
+    <a href="https://www.labiosthetique.de?salon=badhomburg-0089063" target="_blank">La Biosthetique</a> bieten zu können.<br>
     Wir freuen uns Sie im Salon <b>Kopfarbeit</b> begrüßen zu dürfen.
   </p>
 </section>
 
-<!-- TODO: Automatischer Bild-Durchlauf. -->
+<hr>
+
+<!-- TODO: Automatischer Bild-Durchlauf mit JavaScript. -->
 <section id="impressionen">
-  <h2 class="silver-boarder">Impressionen</h2>
-  <img src="images/Frau.jpg" alt="Weiblicher Beispielkunde" />
-  <img src="images/Mann.jpg" alt="Männlicher Beispielkunde" />
-  <img src="images/Innen.jpg" alt="Innenansicht Kopfarbeit" />
-  <img src="images/Scheren.jpg" alt="Scheren Kopfarbeit" />
+  <h2>Impressionen</h2>
+  <img src="images/ImpressionInnen.jpg" alt="ImpressionInnen" />
+  <img src="images/ImpressionKunde.jpg" alt="ImpressionKunde" />
+  <img src="images/ImpressionMadeleine.jpeg" alt="ImpressionMadeleine" />
+  <img src="images/ImpressionProdukt.jpg" alt="ImpressionProdukt" />
+  <img src="images/ImpressionScheren.jpg" alt="ImpressionScheren" />
+  <img src="images/ImpressionTee.jpeg" alt="ImpressionTee" />
 </section>
 
-<!-- TODO: Abstände anpassen. -->
-<!-- TODO: Biosthetique Produktseite verlinken. -->
+<hr>
+
 <section id="angebot">
-  <h2 class="silver-boarder">Angebot</h2>
+  <h2>Angebot</h2>
   <table>
     <thead>
     <tr>
@@ -185,10 +148,17 @@ TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufen
     </tr>
     </tbody>
   </table>
+
+  <a class="FlexContainer" href="https://www.labiosthetique.de?salon=badhomburg-0089063" target="_blank">
+    <iframe class="LaBiosthetiqueShop" src="https://www.labiosthetique.de?salon=badhomburg-0089063"></iframe>
+  </a>
 </section>
 
+<hr>
+
+<!-- TODO: Grid-Layout einfügen für Daten, QR und Tabelle. -->
 <section id="kontakt">
-  <h2 class="silver-boarder">Kontakt</h2>
+  <h2>Kontakt</h2>
   <p>
     Wir arbeiten <b>ausschließlich mit Terminvereinbarung</b>!<br>
     Nutzen Sie gerne folgende Daten für eine Terminanfrage über WhatsApp oder für einen Anruf.
@@ -201,11 +171,46 @@ TODO: Zentrierte Flexbox-Darstellung mit kleiner skalierten Bildern und umlaufen
       61348 Bad Homburg<br>
       +49 151 155 231 80
     </p>
-    <!-- TODO: QR-Code mit V-Card einfügen. -->
     <img class="QrCode" src="images/VCardKopfarbeitMadeleineJaeger.png" />
   </div>
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Uhrzeit</th>
+    </tr>
+    <tr>
+      <td>Montag</td>
+      <td>Geschlossen</td>
+    </tr>
+    <tr>
+      <td>Dienstag</td>
+      <td>10:00 - 18:00</td>
+    </tr>
+    <tr>
+      <td>Mittwoch</td>
+      <td>10:00 - 18:00</td>
+    </tr>
+    <tr>
+      <td>Donnerstag</td>
+      <td>10:00 - 18:00</td>
+    </tr>
+    <tr>
+      <td>Freitag</td>
+      <td>10:00 - 18:00</td>
+    </tr>
+    <tr>
+      <td>Samstag</td>
+      <td>08:00 - 14:00</td>
+    </tr>
+    <tr>
+      <td>Sonntag</td>
+      <td>Geschlossen</td>
+    </tr>
+  </table>
   <p>
-    <b>Tipp</b>: Sollten Sie einen Parkplatz benötigen, dann empfehlen wir Ihnen die Schlossgarage anzufahren.<br>
+    <b>Anfahrt</b>: Sollten Sie einen Parkplatz benötigen, dann empfehlen wir Ihnen die kostenpflichtige Schlossgarage anzufahren.
+    Diese verfügt über einen Aufzug.<br>
+    Der Salon Kopfarbeit befindet sich rechts neben dem Kaffee Eiding.
   </p>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.3735859203003!2d8.610638792313729!3d50.22915533494278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd075a5cbba67b%3A0xe37b212cc5700fa2!2sKOPFARBEIT!5e1!3m2!1sen!2sde!4v1743370711465!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
