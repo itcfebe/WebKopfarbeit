@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jaeger;Madeleine;;;
+FN:Madeleine Jaeger
+ORG:KOPFARBEIT Madeleine Jaeger
+TEL;TYPE=CELL:+49 151 155 231 80
+URL:https://kopfarbeitmadeleinejaeger.de
+ADR;TYPE=WORK:;;Schulberg 13;Bad Homburg;;61348;Deutschland
+NOTE:Öffnungszeiten:
+Montag: Geschlossen
+Dienstag: 10:00 - 18:00
+Mittwoch: 10:00 - 18:00
+Donnerstag: 10:00 - 18:00
+Freitag: 10:00 - 18:00
+Samstag: 08:00 - 14:00
+Sonntag: Geschlossen
+END:VCARD
