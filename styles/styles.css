@@ -143,16 +143,12 @@ table {
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr 2fr;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
-.GridElement1x1l {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-}
-.GridElement1x1r {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
+.GridElement1x1{
+    grid-row: span 1;
+    grid-column: span 1;
 }
 
 .GridElement1x2 {
