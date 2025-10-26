@@ -1,4 +1,4 @@
-// Function to calculate total cost of selected services
+// Experimental function to calculated total cost of services.
 function calculateTotal() {
     const checkboxes = document.querySelectorAll('input[name="service"]:checked');
     let total = 0;
@@ -8,7 +8,7 @@ function calculateTotal() {
     document.getElementById('total-cost').textContent = `Total Cost: $${total}`;
 }
 
-// Scroll to Top functionality
+// Enables the Anfang button if scrolled down a bit.
 window.onscroll = function() {
     const scrollTopBtn = document.getElementById("scrollTopBtn");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -18,12 +18,8 @@ window.onscroll = function() {
     }
 };
 
-// Scroll to Top functionality
+// Scroll to Top when using this function.
 function scrollToTop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-}
-
-const testFun = () => {
-    alert("test function")
 }

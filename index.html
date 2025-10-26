@@ -7,14 +7,13 @@
   <meta name="description" content="Charmanter kleiner Friseursalon am Schlosspark Bad Homburg.
     Wir freuen uns auf Sie!">
   <title>Hauptseite | KOPFARBEIT Madeleine Jaeger</title>
-  <link rel="icon" sizes="32x32" type="image/png" href="images/GlypheSchere32.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="images/HeadGlypheSchere.png">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 <header>
-  <!-- TODO: Logo freistellen. -->
-  <a href="index.html"><img src="images/LogoKopfarbeit.png" alt="Kopfarbeit Madeleine Jaeger"/></a>
+  <a href="index.html"><img src="images/HeaderLogoKopfarbeit.png" alt="Kopfarbeit Madeleine Jaeger"/></a>
   <nav>
     <ul>
       <li><a href="#vorstellung">Vorstellung</a></li>
@@ -25,14 +24,12 @@
   </nav>
 </header>
 
-<!-- TODO: Alle Header und Paragraph Abstände danach anpassen. -->
 <section id="vorstellung">
   <h1 class="Header">Vorstellung</h1>
-  <!-- TODO: Bilder nebeneinander als Flex-Items. -->
 
   <div class="FlexContainer">
-    <img src="images/KopfarbeitAussen.jpg" alt="Außenansicht Kopfarbeit"/>
-    <img src="images/UeberMadeleine.jpeg" alt="Madeleine Jaeger"/>
+    <img src="images/VorstellungAussen.jpg" alt="Außenansicht Kopfarbeit"/>
+    <img src="images/VorstellungMadeleine.jpeg" alt="Madeleine Jaeger"/>
   </div>
 
   <h3 class="SubHeader">Herzlich Willkommen</h3>
@@ -52,16 +49,16 @@
 
 <hr>
 
-<!-- TODO: Automatischer Bild-Durchlauf mit JavaScript. -->
+<!-- TODO: Automatischer Bild-Durchlauf mit JavaScript und Bildgröße. -->
 <section id="impressionen">
   <h1 class="Header">Impressionen</h1>
   <div class="FlexContainer">
-    <img src="images/ImpressionInnen.jpg" alt="ImpressionInnen"/>
-    <img src="images/ImpressionKunde.jpg" alt="ImpressionKunde"/>
-    <img src="images/ImpressionMadeleine.jpeg" alt="ImpressionMadeleine"/>
-    <img src="images/ImpressionProdukt.jpg" alt="ImpressionProdukt"/>
-    <img src="images/ImpressionScheren.jpg" alt="ImpressionScheren"/>
-    <img src="images/ImpressionTee.jpeg" alt="ImpressionTee"/>
+    <img src="images/ImpressionenInnen.jpg" alt="ImpressionInnen"/>
+    <img src="images/ImpressionenKunde.jpg" alt="ImpressionKunde"/>
+    <img src="images/ImpressionenMadeleine.jpeg" alt="ImpressionMadeleine"/>
+    <img src="images/ImpressionenProdukt.jpg" alt="ImpressionProdukt"/>
+    <img src="images/ImpressionenScheren.jpg" alt="ImpressionScheren"/>
+    <img src="images/ImpressionenTee.jpeg" alt="ImpressionTee"/>
   </div>
 </section>
 
@@ -71,7 +68,7 @@
 <section id="angebot">
   <h1 class="Header">Angebot</h1>
 
-  <img src="images/ProdukteMadeleine.jpeg" alt="Produkt Madeleine Jaeger"/>
+  <img src="images/AngebotMadeleine.jpeg" alt="Produkt Madeleine Jaeger"/>
 
   <h3 class="SubHeader">Unverbindliche Preisliste</h3>
   <table>
@@ -191,20 +188,19 @@
   <img src="images/KontaktMadeleine.jpeg" alt="Kontakt Madeleine Jaeger"/>
 
   <h3 class="SubHeader">Kontaktdaten</h3>
-  <p>
+  <div class="GridContainer2x2">
+  <p class="GridElement1x2">
     Wir arbeiten <b>ausschließlich mit Terminvereinbarung</b>!<br>
     Nutzen Sie gerne folgende Daten für eine Terminanfrage über WhatsApp oder für einen Anruf.
   </p>
-  <!-- TODO: Website-Link einfügen und vCard freistellen als PNG. -->
-  <div class="FlexContainer">
-    <p class="ContactInfo">
-      <b>KOPFARBEIT</b><br>
-      Madeleine Jaeger<br>
-      Schulberg 13<br>
-      61348 Bad Homburg<br>
-      +49 151 155 231 80
-    </p>
-    <img class="QrCode" src="images/VCardKopfarbeitMadeleineJaeger.png" alt="VCard of Kopfarbeit as QrCode."/>
+  <p class="ContactInfo GridElement1x1">
+    <b>KOPFARBEIT</b><br>
+    Madeleine Jaeger<br>
+    Schulberg 13<br>
+    61348 Bad Homburg<br>
+    +49 151 155 231 80
+  </p>
+  <img class="QrCode GridElement1x1" src="images/KontaktVCardKopfarbeit.png" alt="VCard of Kopfarbeit as QrCode."/>
   </div>
 
   <h3 class="SubHeader">Anfahrt</h3>
@@ -261,7 +257,7 @@
   </p>
   <p>
     <a href="https://www.instagram.com/kopfarbeit_madeleine_jaeger/" target="_blank">
-      <img src="images/GlypheInstagram.png" alt="Instagram Glyphe"/>
+      <img src="images/FooterGlypheInstagram.png" alt="Instagram Glyphe"/>
     </a>
   </p>
   <p>
@@ -269,7 +265,7 @@
   </p>
   <!-- TODO: Impressum fertig stellen. -->
   <!-- TODO: Datenschutzerklärung fertig stellen. -->
-  <!-- TODO: Check if Cookies are fine or additional Cookie-Option. -->
+  <!-- TODO: Prüfung der Cookie-Nutzung. -->
   <p>
     <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
   </p>
