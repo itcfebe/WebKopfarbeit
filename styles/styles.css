@@ -141,6 +141,7 @@ table {
     flex-wrap: wrap;
 }
 
+
 .FlexContainerNoWrap {
     display: flex;
     justify-content: normal;
@@ -168,8 +169,19 @@ table {
     margin-block-end: 1.5em;
 }
 
-.ImagePair3x2 {
+.ImagePair {
     width: 50%;
+}
+
+.ImpressionenFlexContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.ImpressionenImagePair {
+    width: 50%;
+    max-width: 400px;
 }
 
 .LaBiosthetiqueShop {
