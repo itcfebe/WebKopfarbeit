@@ -42,7 +42,7 @@ header {
 header img {
     width: 30%;
     max-width: 300px;
-    min-width: 200px;
+    min-width: 225px;
     position: static;
 }
 
@@ -56,7 +56,7 @@ hr {
 
 img {
     width: 100%;
-    max-width: 250px;
+    max-width: 225px;
     height: auto;
 }
 
@@ -141,6 +141,12 @@ table {
     flex-wrap: wrap;
 }
 
+.FlexContainerNoWrap {
+    display: flex;
+    justify-content: normal;
+    width: 100%;
+}
+
 .GridContainer2x2 {
     display: grid;
     grid-template-rows: 1fr 2fr;
@@ -162,9 +168,14 @@ table {
     margin-block-end: 1.5em;
 }
 
+.ImagePair3x2 {
+    width: 50%;
+}
+
 .LaBiosthetiqueShop {
     border: 10px inset;
-    margin: 1em 0em;
+    box-sizing: border-box;
+    margin: 1em 0;
     width: 100%;
     aspect-ratio: 4/3;
     max-width: 800px;
@@ -173,7 +184,7 @@ table {
 .LageKarte {
     border: 2px inset;
     margin: 2em 0;
-    width: 100%;
+    width: calc(100% - 2*2px); /* Subtracting the border. */
     aspect-ratio: 4/3;
     max-width: 800px;
 }
