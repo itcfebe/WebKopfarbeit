@@ -16,7 +16,6 @@ function scrollToTop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
-
 // TODO: Function switching to next image displayed in the gallery.
 
 // TODO: Function switching to previous image displayed in the gallery.
