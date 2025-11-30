@@ -127,9 +127,6 @@ table {
   background-color: grey;
 }
 
-.ContactInfo {
-}
-
 .EbonyBackground {
   background-color: rgb(255, 254, 250);
 }
@@ -192,7 +189,7 @@ table {
   max-width: 800px;
 }
 
-.LageKarte {
+.PositionMap {
   border: 2px inset;
   margin: 2em 0;
   width: calc(100% - 2 * 2px); /* Subtracting the border. */
