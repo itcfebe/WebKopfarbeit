@@ -216,6 +216,6 @@ table {
   margin-block-end: 0.5em;
 }
 
-.TableDividerBottom {
-  border-bottom: 5pt solid white;
+.tr-divider {
+  border-bottom: 0.5pt solid darkgray;
 }
